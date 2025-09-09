@@ -30,7 +30,7 @@ O Terceiro desafio prático da trilha Full-Stack, promovido pela Rocketseat para
 
 ## Projeto
 
-- [Visita o projeto online!]([https://molimpion.github.io/Desafio-Formulario-de-Convite/])
+- [Visita o projeto online!](https://molimpion.github.io/Desafio-Formulario-de-Convite/)
 
 
 ## Layout
