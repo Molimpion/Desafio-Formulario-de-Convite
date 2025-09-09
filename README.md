@@ -22,7 +22,7 @@ O Terceiro desafio prático da trilha Full-Stack, promovido pela Rocketseat para
   <img alt="FormularioConvite" src="assets/Thumbnail.png" width="100%">
 </p>
 
-## Tecnologias"
+## Tecnologias
 
 - **HTML5** para estruturação do conteúdo
 - **CSS3** para estilização
