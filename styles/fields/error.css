@@ -1,0 +1,29 @@
+
+.input-wrapper input[type="text"]:invalid {
+  border: 1px solid var(--danger);
+}
+
+.input-wrapper .error {
+  display: none;
+  color: var(--danger);
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.input-wrapper input[type="text"]:invalid ~  .error {
+  display: flex;
+}
+
+
+.input-wrapper input[type="text"]:valid ~ .error {
+  opacity: 0;
+}
+
+.input-wrapper .error svg {
+  width: 16px;
+  height: 16px;
+  fill: var(--danger);
+}

@@ -1,0 +1,67 @@
+.radio-wrapper .boxzone{
+  display: flex;
+  position: relative;
+  background-color: var(--input-base);
+  border: 1px solid var(--input-stroke);
+  border-radius: .5rem;
+  height: 3.45rem;
+  color: var(--input-placeholder);
+}
+.box-option-wrapper {
+  display: flex;
+  padding: .25rem;
+  width: 100%;
+  position: relative;
+  border-radius: .25rem;
+  overflow: hidden; /* Garante que bg não ultrapasse os limites */
+}
+.radio-wrapper .boxzone img  {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.radio-wrapper .boxzone input  {
+  display: none;
+}
+.radio-wrapper .boxzone .box-option{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  border-radius: 0.3125rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+}
+
+.bg {
+  position: absolute;
+  width: 49%;
+  height: calc(100% - 0.5rem); 
+  background-color: var(--shape-button); 
+  border-radius: .5rem; 
+  z-index: 1;
+  transition: all 0.4s ease-in-out;
+}
+#presencial:checked ~ .box-option-wrapper .bg {
+  transform: translateX(0%);
+  
+}
+
+#online:checked ~ .box-option-wrapper .bg {
+  transform: translateX(100%);
+}
+#presencial:checked ~ .box-option-wrapper .icon-presencial{
+  stroke: var(--brand-mid);
+}
+#online:checked ~ .box-option-wrapper .icon-online{
+   stroke: var(--brand-mid);
+}
+
+#presencial:checked ~ .box-option-wrapper .p-presencial{
+  color: var(--text-heading);
+}
+#online:checked ~ .box-option-wrapper .p-online{
+   color: var(--text-heading);
+}

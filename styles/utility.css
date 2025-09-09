@@ -1,0 +1,70 @@
+.flex{
+  display: flex;
+  gap: 1rem;
+}
+.flex-1{
+  flex: 1;
+}
+.flex-1-2{
+  flex: 1.2;
+}
+.flex-2{
+  flex: 2;
+}
+.brand-light{
+  background-color: var(--brand-light);
+}
+.navy{
+  background-color: var(--navy);
+}
+.purple{
+  background-color: var(--purple);
+}
+.fuschia{
+  background-color: var(--fuschia);
+}
+.pink{
+  background-color: var(--pink);
+}
+.orange{
+  background-color: var(--orange);
+}
+.yellow{
+  background-color: var(--yellow);
+}
+.lime{
+  background-color: var(--lime);
+}
+.green{
+  background-color: var(--green);
+}
+.cyan{
+  background-color: var(--cyan);
+}
+.red{
+  background-color: var(--danger) ;
+}
+
+.text-sm{
+  font: var(--body-sm);
+}
+.text-xs{
+  font: var(--body-xs);
+}
+
+.birthday-bg{
+  background-image: url(../../assets/images/Image.svg);
+  background-size:cover;
+}
+.kids-bg{
+  background-image: url(../../assets/images/Image-1.svg);
+  background-size:cover;
+}
+.graduation-bg{
+  background-image: url(../../assets/images/Image-2.svg);
+  background-size:cover;
+}
+.marriage-bg{
+  background-image: url(../../assets/images/Image-3.svg);
+  background-size:cover;
+}
