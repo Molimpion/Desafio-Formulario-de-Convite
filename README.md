@@ -35,7 +35,7 @@ O Terceiro desafio prático da trilha Full-Stack, promovido pela Rocketseat para
 
 ## Layout
 
-Você pode visualizar o layout do projeto através [DESTE LINK](https://www.figma.com/design/H86QIEeJAECROFmg1iuMMP/Formulário-de-convite-(Community)?node-id=0-1&p=f&t=SkV5lJr9FNy5Msbl-0). É necessário ter conta no [Figma](https://figma.com) para abriacessá-lo.
+Você pode visualizar o layout do projeto através [DESTE LINK](https://www.figma.com/design/H86QIEeJAECROFmg1iuMMP/Formulário-de-convite-(Community)?node-id=0-1&p=f&t=SkV5lJr9FNy5Msbl-0). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## Licença
 
